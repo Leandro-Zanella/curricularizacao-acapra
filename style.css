@@ -288,6 +288,52 @@ header {
     box-shadow: var(--shadow-card);
 }
 
+/* Doação Section */
+.doacao-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.doacao-left {
+    flex: 1;
+    border-radius: var(--border-radius);
+}
+
+.doacao-right {
+    flex: 1;
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doacao-right h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.doacao-right p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.doacao-right ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.doacao-right ul li {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
 /* Footer */
 footer {
     background-color: var(--color-primary);
