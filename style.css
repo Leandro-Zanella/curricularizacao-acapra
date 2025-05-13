@@ -249,6 +249,45 @@ header {
     z-index: 1;
 }
 
+/* História Section */
+.historia-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.historia-text {
+    flex: 1;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    padding: var(--padding-card);
+    box-shadow: var(--shadow-card);
+}
+
+.historia-text p {
+    margin-bottom: 20px;
+}
+
+.historia-text img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto 0;
+    height: 190px !important;
+    border-radius: var(--border-radius);
+}
+
+.historia-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.historia-image img {
+    max-width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-card);
+}
+
 /* Footer */
 footer {
     background-color: var(--color-primary);
