@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Formulário enviado com sucesso!');
+                alert('Erro ao enviar!');
                 form.reset();
             });
     });
